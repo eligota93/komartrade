@@ -1,1 +1,0 @@
-Upload the three extracted website files to the root of your existing GitHub repository, replacing matching files. Keep all other files. Restores Coming soon crane icons under Product details for aluminium, copper, zinc and scrap.

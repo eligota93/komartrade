@@ -1,4 +1,6 @@
 const TRANSLATIONS={
+ "Laminate Catalogue":{"sr":"Katalog laminata","tr":"Laminat Kataloğu","de":"Laminatkatalog","it":"Catalogo laminati"},
+ "Explore the laminate collection.":{"sr":"Istražite kolekciju laminata.","tr":"Laminat koleksiyonunu keşfedin.","de":"Entdecken Sie die Laminatkollektion.","it":"Esplora la collezione di laminati."},
  "Coming soon": {
   "sr": "Uskoro",
   "tr": "Yakında",
