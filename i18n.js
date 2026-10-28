@@ -797,3 +797,132 @@ it:[
 ]};
 
 TRANSLATIONS['Stainless steel elevators in a marble lobby']={sr:'Liftovi od nerđajućeg čelika u mermernom holu',tr:'Mermer lobide paslanmaz çelik asansörler',de:'Edelstahlaufzüge in einer Marmorlobby',it:'Ascensori in acciaio inossidabile in una hall in marmo'};
+
+Object.assign(TRANSLATIONS,{
+ "Water Tanks": {
+  "sr": "Rezervoari za vodu",
+  "tr": "Su Depoları",
+  "de": "Wassertanks",
+  "it": "Serbatoi d’acqua"
+ },
+ "Five sectors. One partner": {
+  "sr": "Pet sektora. Jedan partner",
+  "tr": "Beş sektör. Tek ortak",
+  "de": "Fünf Bereiche. Ein Partner",
+  "it": "Cinque settori. Un partner"
+ },
+ "Your partner in elevators, tiles & sanitary, metals, industrial kitchens and water tanks. Five sectors. One shared vision.": {
+  "sr": "Vaš partner za liftove, keramiku i sanitarije, metale, industrijske kuhinje i rezervoare za vodu. Pet sektora. Jedna zajednička vizija.",
+  "tr": "Asansörler, seramik ve vitrifiye, metaller, endüstriyel mutfaklar ve su depolarında iş ortağınız. Beş sektör. Ortak bir vizyon.",
+  "de": "Ihr Partner für Aufzüge, Fliesen und Sanitär, Metalle, Großküchen und Wassertanks. Fünf Bereiche. Eine gemeinsame Vision.",
+  "it": "Il vostro partner per ascensori, piastrelle e sanitari, metalli, cucine industriali e serbatoi d’acqua. Cinque settori. Una visione condivisa."
+ },
+ "Industrial kitchen design and planning, with tableware and accessories.": {
+  "sr": "Projektovanje i planiranje industrijskih kuhinja, uz posuđe i pribor za sto.",
+  "tr": "Endüstriyel mutfak tasarımı ve planlaması, sofra takımları ve aksesuarları.",
+  "de": "Planung und Gestaltung von Großküchen mit Tischgeschirr und Zubehör.",
+  "it": "Progettazione e pianificazione di cucine industriali, con articoli e accessori per la tavola."
+ },
+ "Water storage solutions for your project. Contact us for available models and specifications.": {
+  "sr": "Rešenja za skladištenje vode za vaš projekat. Kontaktirajte nas za dostupne modele i specifikacije.",
+  "tr": "Projeniz için su depolama çözümleri. Mevcut modeller ve teknik özellikler için bize ulaşın.",
+  "de": "Lösungen zur Wasserspeicherung für Ihr Projekt. Kontaktieren Sie uns für verfügbare Modelle und Spezifikationen.",
+  "it": "Soluzioni per lo stoccaggio dell’acqua per il vostro progetto. Contattateci per modelli e specifiche disponibili."
+ },
+ "From kitchen design to the details on your table": {
+  "sr": "Od projektovanja kuhinje do detalja na vašem stolu",
+  "tr": "Mutfak tasarımından sofranızdaki detaylara",
+  "de": "Von der Küchenplanung bis zu den Details auf Ihrem Tisch",
+  "it": "Dalla progettazione della cucina ai dettagli della tavola"
+ },
+ "Industrial kitchen design and planning, with tableware for hospitality businesses. A tradition that began in 1968.": {
+  "sr": "Projektovanje i planiranje industrijskih kuhinja i posuđe za ugostiteljstvo. Tradicija započeta 1968. godine.",
+  "tr": "Konaklama ve yeme içme işletmeleri için endüstriyel mutfak tasarımı, planlaması ve sofra takımları. 1968’de başlayan bir gelenek.",
+  "de": "Planung und Gestaltung von Großküchen und Tischgeschirr für die Gastronomie. Eine Tradition seit 1968.",
+  "it": "Progettazione e pianificazione di cucine industriali e articoli per la tavola per l’ospitalità. Una tradizione iniziata nel 1968."
+ },
+ "Kitchen design": {
+  "sr": "Projektovanje kuhinja",
+  "tr": "Mutfak tasarımı",
+  "de": "Küchenplanung",
+  "it": "Progettazione cucine"
+ },
+ "Planned around your space and workflow": {
+  "sr": "Planirano prema vašem prostoru i toku rada",
+  "tr": "Alanınıza ve iş akışınıza göre planlandı",
+  "de": "Geplant für Ihren Raum und Ihre Arbeitsabläufe",
+  "it": "Progettato per i vostri spazi e flussi di lavoro"
+ },
+ "We design and plan industrial kitchens around the space, workflow and needs of your business. Contact our team to discuss your project.": {
+  "sr": "Projektujemo i planiramo industrijske kuhinje prema prostoru, toku rada i potrebama vašeg poslovanja. Kontaktirajte naš tim da razgovaramo o projektu.",
+  "tr": "İşletmenizin alanına, iş akışına ve ihtiyaçlarına göre endüstriyel mutfaklar tasarlıyor ve planlıyoruz. Projenizi görüşmek için ekibimizle iletişime geçin.",
+  "de": "Wir planen und gestalten Großküchen nach den Räumen, Arbeitsabläufen und Anforderungen Ihres Unternehmens. Besprechen Sie Ihr Projekt mit unserem Team.",
+  "it": "Progettiamo e pianifichiamo cucine industriali in base agli spazi, ai flussi di lavoro e alle esigenze della vostra attività. Contattate il nostro team per parlare del progetto."
+ },
+ "Tableware & accessories": {
+  "sr": "Posuđe i pribor za sto",
+  "tr": "Sofra takımları ve aksesuarları",
+  "de": "Tischgeschirr und Zubehör",
+  "it": "Articoli e accessori per la tavola"
+ },
+ "Plates, glasses and cutlery for restaurants, hotels and hospitality spaces. Contact us for collections and availability.": {
+  "sr": "Tanjiri, čaše i pribor za jelo za restorane, hotele i ugostiteljske objekte. Kontaktirajte nas za kolekcije i dostupnost.",
+  "tr": "Restoranlar, oteller ve konaklama alanları için tabaklar, bardaklar ve çatal bıçak takımları. Koleksiyonlar ve stok durumu için bize ulaşın.",
+  "de": "Teller, Gläser und Besteck für Restaurants, Hotels und gastronomische Räume. Kontaktieren Sie uns für Kollektionen und Verfügbarkeit.",
+  "it": "Piatti, bicchieri e posate per ristoranti, hotel e spazi di ospitalità. Contattateci per collezioni e disponibilità."
+ },
+ "Explore tableware": {
+  "sr": "Istražite posuđe",
+  "tr": "Sofra takımlarını keşfedin",
+  "de": "Tischgeschirr entdecken",
+  "it": "Scopri gli articoli per la tavola"
+ },
+ "Everything around your table": {
+  "sr": "Sve za vaš sto",
+  "tr": "Sofranız için her şey",
+  "de": "Alles für Ihren Tisch",
+  "it": "Tutto per la vostra tavola"
+ },
+ "Back to Industrial Kitchens": {
+  "sr": "Nazad na industrijske kuhinje",
+  "tr": "Endüstriyel Mutfaklara Dön",
+  "de": "Zurück zu Großküchen",
+  "it": "Torna alle cucine industriali"
+ },
+ "Plates": {
+  "sr": "Tanjiri",
+  "tr": "Tabaklar",
+  "de": "Teller",
+  "it": "Piatti"
+ },
+ "Glasses": {
+  "sr": "Čaše",
+  "tr": "Bardaklar",
+  "de": "Gläser",
+  "it": "Bicchieri"
+ },
+ "Cutlery": {
+  "sr": "Pribor za jelo",
+  "tr": "Çatal bıçak takımları",
+  "de": "Besteck",
+  "it": "Posate"
+ },
+ "Water storage for your project": {
+  "sr": "Skladištenje vode za vaš projekat",
+  "tr": "Projeniz için su depolama",
+  "de": "Wasserspeicherung für Ihr Projekt",
+  "it": "Stoccaggio dell’acqua per il vostro progetto"
+ },
+ "Tell us what your project needs": {
+  "sr": "Recite nam šta je potrebno vašem projektu",
+  "tr": "Projenizin ihtiyaçlarını bize anlatın",
+  "de": "Sagen Sie uns, was Ihr Projekt benötigt",
+  "it": "Diteci di cosa ha bisogno il vostro progetto"
+ },
+ "Contact our team for available tank models, capacities, dimensions and technical specifications.": {
+  "sr": "Kontaktirajte naš tim za dostupne modele rezervoara, kapacitete, dimenzije i tehničke specifikacije.",
+  "tr": "Mevcut depo modelleri, kapasiteler, boyutlar ve teknik özellikler için ekibimizle iletişime geçin.",
+  "de": "Kontaktieren Sie unser Team für verfügbare Tankmodelle, Kapazitäten, Abmessungen und technische Spezifikationen.",
+  "it": "Contattate il nostro team per modelli, capacità, dimensioni e specifiche tecniche dei serbatoi disponibili."
+ }
+});
