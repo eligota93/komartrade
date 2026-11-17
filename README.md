@@ -1,8 +1,8 @@
 # Komar Trading - Complete GitHub Pages website
 
 This ZIP contains the entire static website. There is no build or installation step.
-It includes all ten catalogues: Sanitary, Statuario, Super White, Laminate,
-Elevators, Fire, Water, WOOD, Super High Gloss and MATT. The Water Tanks page includes product photos, model specifications, and both Water and Fire.
+It includes all eleven catalogues: Sanitary, Statuario, Super White, Laminate,
+Elevators, Fire, Water, WOOD, Super High Gloss, MATT and GRANITE. The Water Tanks page includes product photos, model specifications, and both Water and Fire.
 
 ## Updating the GitHub Pages site
 

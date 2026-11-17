@@ -17,7 +17,7 @@ function waterTanksPage(){
   return intro(sector.name,tr('Prismatic modular water tanks','Depozita prizmatike modulare të ujit'),tr('Factory-made panels, assembled on site without welding. Choose a configuration for your space and storage needs.','Panele të prodhuara në fabrikë dhe të montuara në vend pa saldim. Zgjidhni konfigurimin sipas hapësirës dhe sasisë së ujit që ju duhet.'))+
   `<section class="wrap water-product" style="padding-top:0">
     <article class="water-product-row">
-      <figure class="water-product-photo"><img src="assets/water-tank-product.jpg" alt="${tr('Assembled prismatic modular water tank','Depozitë prizmatike modulare e montuar')}" width="900" height="553"></figure>
+      <figure class="water-product-photo"><img src="assets/water-tanks-main.jpg" alt="${tr('Two configurations of prismatic modular water tanks','Dy konfigurime të depozitave prizmatike modulare të ujit')}" width="1451" height="670"></figure>
       <div><p class="eyebrow">01 / ${tr('Product details','Detajet e produktit')}</p><h2>${tr('Prismatic modular water tanks','Depozita prizmatike modulare të ujit')}</h2>
       <ul class="water-product-list">
         <li>${tr('Individual panels are transported separately and assembled on site without welding.','Panelet transportohen veçmas dhe montohen në vend pa saldim.')}</li>

@@ -59,3 +59,28 @@ html[data-phone-viewport] .viewer-toolbar{top:78px}
 .water-table thead{background:#435d87;color:white}
 .water-product-note{margin:12px 0 0}
 @media(max-width:700px){.water-product-row{grid-template-columns:1fr}.water-materials .water-product-photo{max-width:260px}}
+
+.steel-card{display:block;text-decoration:none;transition:border-color .2s,box-shadow .2s}
+.steel-card:hover,.steel-card:focus-visible{border-color:#435d87;box-shadow:0 4px 18px #435d8725}
+.steel-card:focus-visible{outline:2px solid #435d87;outline-offset:3px}
+.steel-detail{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:clamp(20px,5vw,60px);align-items:start;padding-top:0}
+.steel-photo{margin:0;background:#f4f6f9;border:1px solid var(--line);border-radius:16px;overflow:hidden}
+.steel-photo img{display:block;width:100%;height:auto}
+.steel-content h2{font-size:clamp(21px,3vw,31px);margin:0 0 12px}
+.steel-content p{margin:0 0 20px}
+.steel-specs{margin:0 0 22px}
+.steel-specs>div{display:grid;grid-template-columns:1fr 1.3fr;gap:12px;border-top:1px solid var(--line);padding:10px 0}
+.steel-specs dt{font-weight:600}
+.steel-specs dd{margin:0}
+.steel-content .steel-source{margin-top:20px;font-size:.875em}
+.steel-source a{text-decoration:underline}
+@media(max-width:720px){.steel-detail{grid-template-columns:1fr}}
+
+.metal-information{background:#f4f6f9;border:1px solid #e0e6ee;border-radius:16px;padding:clamp(18px,3vw,32px);min-width:0}
+.metal-information h3{margin:0 0 12px}
+.metal-information h3:not(:first-child){margin-top:24px}
+.metal-information h4{margin:0 0 6px}
+.metal-information p{margin:0 0 14px}
+.metal-information .steel-source{margin:0;font-size:.875em;overflow-wrap:anywhere}
+
+.sector-image img[src="assets/water-tanks-main.jpg"]{object-fit:contain;background:#fff}
