@@ -7,6 +7,39 @@ function tablewarePage(){
   `<section class="wrap" style="padding-top:0"><a class="back-button page-back" href="#/kitchens">${icon()}${t('Back to Industrial Kitchens','Kthehu te Kuzhinat Industriale')}</a><div class="tableware-types">${[t('Plates','Pjata'),t('Glasses','Gota'),t('Cutlery','Takëme')].map(n=>`<div class="tableware-type">${icon('tableware')}<h2>${n}</h2></div>`).join('')}</div><h3>${t('Product details','Detajet e produktit')}</h3>${coming()}<h3>${t('Technical specifications','Specifikimet teknike')}</h3>${coming()}${btn(t('Request a quote','Kërkoni ofertë'),'#/contact?sector=kitchens')}</section>${banner()}`;
 }
 function waterTanksPage(){
-  const s=sectors().find(s=>s.id==='water-tanks');
-  return intro(s.name,t('Water storage for your project','Ruajtja e ujit për projektin tuaj'),s.desc)+`<section class="wrap" style="padding-top:0"><div class="water-tank-intro"><div class="tank-symbol">${icon('tank')}</div><div><p class="eyebrow">KOMAR TRADING</p><h2>${t('Tell us what your project needs','Na tregoni çfarë i duhet projektit tuaj')}</h2><p>${t('Contact our team for available tank models, capacities, dimensions and technical specifications.','Kontaktoni ekipin tonë për modelet, kapacitetet, dimensionet dhe specifikimet teknike të depozitave të disponueshme.')}</p>${btn(t('Request a quote','Kërkoni ofertë'),'#/contact?sector=water-tanks')}</div></div>${catalogues(['water','fire'])}<div class="tank-details"><div><h3>${t('Product details','Detajet e produktit')}</h3>${coming()}</div><div><h3>${t('Technical specifications','Specifikimet teknike')}</h3>${coming()}</div></div></section>${banner()}`;
+  const sector=sectors().find(item=>item.id==='water-tanks');
+  const tr=t;
+  const fmt=new Intl.NumberFormat({al:'sq',en:'en',sr:'sr-Latn',tr:'tr',de:'de',it:'it'}[lang]);
+  const models=[
+    [1,2500,1075,2150,1075],[6,10000,2150,2150,2150],[11,25000,2150,5375,2150],
+    [17,50000,4300,5375,2150],[22,75000,5375,6450,2150],[42,536000,12900,12900,3225]
+  ];
+  return intro(sector.name,tr('Prismatic modular water tanks','Depozita prizmatike modulare të ujit'),tr('Factory-made panels, assembled on site without welding. Choose a configuration for your space and storage needs.','Panele të prodhuara në fabrikë dhe të montuara në vend pa saldim. Zgjidhni konfigurimin sipas hapësirës dhe sasisë së ujit që ju duhet.'))+
+  `<section class="wrap water-product" style="padding-top:0">
+    <article class="water-product-row">
+      <figure class="water-product-photo"><img src="assets/water-tank-product.jpg" alt="${tr('Assembled prismatic modular water tank','Depozitë prizmatike modulare e montuar')}" width="900" height="553"></figure>
+      <div><p class="eyebrow">01 / ${tr('Product details','Detajet e produktit')}</p><h2>${tr('Prismatic modular water tanks','Depozita prizmatike modulare të ujit')}</h2>
+      <ul class="water-product-list">
+        <li>${tr('Individual panels are transported separately and assembled on site without welding.','Panelet transportohen veçmas dhe montohen në vend pa saldim.')}</li>
+        <li>${tr('Modular layouts can be adapted to suit the installation space.','Konfigurimi modular përshtatet me hapësirën e instalimit.')}</li>
+        <li>${tr('Individual panels can be replaced, and the tank can be dismantled and reassembled.','Panelet mund të ndërrohen veçmas, ndërsa depozita mund të çmontohet dhe të rimontohet.')}</li>
+      </ul>${btn(tr('Request a quote','Kërkoni ofertë'),'#/contact?sector=water-tanks')}</div>
+    </article>
+    <article class="water-specs">
+      <p class="eyebrow">02 / ${tr('Technical specifications','Specifikimet teknike')}</p>
+      <h2>${tr('Materials and capacities','Materialet dhe kapacitetet')}</h2>
+      <div class="water-product-row water-materials">
+        <figure class="water-product-photo"><img src="assets/water-tank-panels.jpg" alt="${tr('Pressed metal panels for modular tanks','Panele metalike të presuara për depozita modulare')}" width="900" height="894" loading="lazy"></figure>
+        <div><h3>${tr('Material options','Opsionet e materialit')}</h3><ul class="water-product-list">
+          <li>${tr('AISI 304 or AISI 316 stainless steel','Çelik inox AISI 304 ose AISI 316')}</li>
+          <li>${tr('Hot-dip galvanized ST-37 steel','Çelik ST-37 i galvanizuar në të nxehtë')}</li>
+          <li>${tr('Electrostatic powder-coated DKP steel','Çelik DKP me veshje pluhuri elektrostatik')}</li>
+        </ul></div>
+      </div>
+      <div class="water-table"><table><caption>${tr('Selected models from the Water catalogue','Disa modele nga katalogu Water')}</caption><thead><tr><th scope="col">${tr('Model','Modeli')}</th><th scope="col">${tr('Capacity (L)','Kapaciteti (L)')}</th><th scope="col">A × B × C (mm)</th></tr></thead>
+      <tbody>${models.map(([id,litres,...dims])=>`<tr><th scope="row">TK/PMD-${id}</th><td>${fmt.format(litres)}</td><td>${dims.join(' × ')}</td></tr>`).join('')}</tbody></table></div>
+      <p class="water-product-note">${tr('See page 3 of the Water catalogue for the full capacity and dimension table.','Tabelën e plotë të kapaciteteve dhe përmasave e gjeni në faqen 3 të katalogut Water.')}</p>
+    </article>
+    <div class="water-catalogues"><h2>${tr('Catalogues','Katalogët')}</h2>${catalogues(['water','fire'])}</div>
+  </section>`+banner();
 }

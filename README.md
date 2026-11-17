@@ -1,8 +1,8 @@
 # Komar Trading - Complete GitHub Pages website
 
 This ZIP contains the entire static website. There is no build or installation step.
-It includes all nine catalogues: Sanitary, Statuario, Super White, Laminate,
-Elevators, Fire, Water, WOOD and Super High Gloss. The Water Tanks page includes both Water and Fire.
+It includes all ten catalogues: Sanitary, Statuario, Super White, Laminate,
+Elevators, Fire, Water, WOOD, Super High Gloss and MATT. The Water Tanks page includes product photos, model specifications, and both Water and Fire.
 
 ## Updating the GitHub Pages site
 
@@ -23,7 +23,7 @@ komar-trading.com.
 Downloads preserve the source PDF bytes. The Sanitary catalogue is stored
 in 24 lossless .part files. Keep all of them and sanitary-source.json in
 catalogues/ so the reader can load and reconstruct the original. Super High
-Gloss also uses lossless .part files; keep all 15 and its manifest together.
+Gloss also uses lossless .part files; keep all 15 and its manifest together. MATT uses the same system; keep all 18 pieces and its manifest together.
 Some photos in WOOD and the existing Statuario, Elevators and Laminate
 catalogues have lower resolution in the source files.
 

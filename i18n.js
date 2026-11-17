@@ -959,3 +959,102 @@ Object.assign(TRANSLATIONS, {
     "it": "Sfogliate il catalogo dei sistemi di estinzione incendi."
   }
 });
+
+Object.assign(TRANSLATIONS, {
+  "Prismatic modular water tanks": {
+    "sr": "Prizmatični modularni rezervoari za vodu",
+    "tr": "Prizmatik modüler su depoları",
+    "de": "Prismatische modulare Wassertanks",
+    "it": "Serbatoi modulari prismatici per acqua"
+  },
+  "Factory-made panels, assembled on site without welding. Choose a configuration for your space and storage needs.": {
+    "sr": "Fabrički izrađeni paneli montiraju se na licu mesta bez zavarivanja. Odaberite konfiguraciju prema prostoru i potrebnom kapacitetu.",
+    "tr": "Fabrikada üretilen paneller sahada kaynak yapılmadan monte edilir. Alanınıza ve depolama ihtiyacınıza uygun düzeni seçin.",
+    "de": "Werkseitig gefertigte Paneele werden vor Ort ohne Schweißen montiert. Wählen Sie die passende Konfiguration für Ihren Platz und Speicherbedarf.",
+    "it": "Pannelli prodotti in fabbrica e montati sul posto senza saldatura. Scegliete la configurazione adatta allo spazio e alla capacità richiesta."
+  },
+  "Assembled prismatic modular water tank": {
+    "sr": "Montiran prizmatični modularni rezervoar za vodu",
+    "tr": "Montajı tamamlanmış prizmatik modüler su deposu",
+    "de": "Montierter prismatischer modularer Wassertank",
+    "it": "Serbatoio modulare prismatico assemblato"
+  },
+  "Individual panels are transported separately and assembled on site without welding.": {
+    "sr": "Paneli se prevoze odvojeno i montiraju na licu mesta bez zavarivanja.",
+    "tr": "Paneller ayrı taşınır ve sahada kaynak yapılmadan monte edilir.",
+    "de": "Die einzelnen Paneele werden separat transportiert und vor Ort ohne Schweißen montiert.",
+    "it": "I singoli pannelli vengono trasportati separatamente e montati sul posto senza saldatura."
+  },
+  "Modular layouts can be adapted to suit the installation space.": {
+    "sr": "Modularna konfiguracija prilagođava se prostoru ugradnje.",
+    "tr": "Modüler düzen kurulum alanına uyarlanabilir.",
+    "de": "Die modulare Konfiguration lässt sich an den Aufstellort anpassen.",
+    "it": "La configurazione modulare si adatta allo spazio di installazione."
+  },
+  "Individual panels can be replaced, and the tank can be dismantled and reassembled.": {
+    "sr": "Pojedinačni paneli mogu se zameniti, a rezervoar rastaviti i ponovo sastaviti.",
+    "tr": "Paneller tek tek değiştirilebilir; depo sökülüp yeniden monte edilebilir.",
+    "de": "Einzelne Paneele lassen sich austauschen. Der Tank kann zerlegt und erneut montiert werden.",
+    "it": "I singoli pannelli si possono sostituire e il serbatoio può essere smontato e rimontato."
+  },
+  "Materials and capacities": {
+    "sr": "Materijali i kapaciteti",
+    "tr": "Malzemeler ve kapasiteler",
+    "de": "Materialien und Fassungsvermögen",
+    "it": "Materiali e capacità"
+  },
+  "Pressed metal panels for modular tanks": {
+    "sr": "Presovani metalni paneli za modularne rezervoare",
+    "tr": "Modüler depolar için preslenmiş metal paneller",
+    "de": "Gepresste Metallpaneele für modulare Tanks",
+    "it": "Pannelli metallici pressati per serbatoi modulari"
+  },
+  "Material options": {
+    "sr": "Opcije materijala",
+    "tr": "Malzeme seçenekleri",
+    "de": "Materialoptionen",
+    "it": "Opzioni dei materiali"
+  },
+  "AISI 304 or AISI 316 stainless steel": {
+    "sr": "Nerđajući čelik AISI 304 ili AISI 316",
+    "tr": "AISI 304 veya AISI 316 paslanmaz çelik",
+    "de": "Edelstahl AISI 304 oder AISI 316",
+    "it": "Acciaio inox AISI 304 o AISI 316"
+  },
+  "Hot-dip galvanized ST-37 steel": {
+    "sr": "Toplo pocinkovani čelik ST-37",
+    "tr": "Sıcak daldırma galvanizli ST-37 çelik",
+    "de": "Feuerverzinkter Stahl ST-37",
+    "it": "Acciaio ST-37 zincato a caldo"
+  },
+  "Electrostatic powder-coated DKP steel": {
+    "sr": "DKP čelik sa elektrostatičkim praškastim premazom",
+    "tr": "Elektrostatik toz boyalı DKP çelik",
+    "de": "Elektrostatisch pulverbeschichteter DKP-Stahl",
+    "it": "Acciaio DKP verniciato con polvere elettrostatica"
+  },
+  "Selected models from the Water catalogue": {
+    "sr": "Odabrani modeli iz kataloga Water",
+    "tr": "Water kataloğundan seçili modeller",
+    "de": "Ausgewählte Modelle aus dem Water-Katalog",
+    "it": "Modelli selezionati dal catalogo Water"
+  },
+  "Model": {
+    "sr": "Model",
+    "tr": "Model",
+    "de": "Modell",
+    "it": "Modello"
+  },
+  "Capacity (L)": {
+    "sr": "Kapacitet (L)",
+    "tr": "Kapasite (L)",
+    "de": "Fassungsvermögen (L)",
+    "it": "Capacità (L)"
+  },
+  "See page 3 of the Water catalogue for the full capacity and dimension table.": {
+    "sr": "Kompletna tabela kapaciteta i dimenzija nalazi se na strani 3 kataloga Water.",
+    "tr": "Kapasite ve ölçü tablosunun tamamı için Water kataloğunun 3. sayfasına bakın.",
+    "de": "Die vollständige Tabelle mit Fassungsvermögen und Abmessungen steht auf Seite 3 des Water-Katalogs.",
+    "it": "La tabella completa di capacità e dimensioni è a pagina 3 del catalogo Water."
+  }
+});
