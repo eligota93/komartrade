@@ -926,3 +926,36 @@ Object.assign(TRANSLATIONS,{
   "it": "Contattate il nostro team per modelli, capacità, dimensioni e specifiche tecniche dei serbatoi disponibili."
  }
 });
+
+Object.assign(TRANSLATIONS, {
+  "Explore the wood-look tile collection.": {
+    "sr": "Istražite kolekciju pločica sa izgledom drveta.",
+    "tr": "Ahşap görünümlü karo koleksiyonunu keşfedin.",
+    "de": "Entdecken Sie die Fliesenkollektion in Holzoptik.",
+    "it": "Scoprite la collezione di piastrelle effetto legno."
+  },
+  "Modular Water Tanks": {
+    "sr": "Modularni rezervoari za vodu",
+    "tr": "Modüler su depoları",
+    "de": "Modulare Wassertanks",
+    "it": "Serbatoi d’acqua modulari"
+  },
+  "Browse the prismatic modular water tank catalogue.": {
+    "sr": "Pogledajte katalog prizmatičnih modularnih rezervoara za vodu.",
+    "tr": "Prizmatik modüler su deposu kataloğunu inceleyin.",
+    "de": "Blättern Sie im Katalog für prismatische modulare Wassertanks.",
+    "it": "Sfogliate il catalogo dei serbatoi d’acqua modulari prismatici."
+  },
+  "Fire Extinguisher Systems": {
+    "sr": "Sistemi za gašenje požara",
+    "tr": "Yangın söndürme sistemleri",
+    "de": "Feuerlöschsysteme",
+    "it": "Sistemi di estinzione incendi"
+  },
+  "Browse the fire extinguisher system catalogue.": {
+    "sr": "Pogledajte katalog sistema za gašenje požara.",
+    "tr": "Yangın söndürme sistemleri kataloğunu inceleyin.",
+    "de": "Blättern Sie im Katalog für Feuerlöschsysteme.",
+    "it": "Sfogliate il catalogo dei sistemi di estinzione incendi."
+  }
+});

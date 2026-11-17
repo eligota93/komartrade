@@ -1,52 +1,32 @@
-# Komar Trading - Complete website
+# Komar Trading - Complete GitHub Pages website
 
-Static website, no installation or build required. Includes six languages,
-continuous PDF scrolling, original-quality catalogue downloads, and zoom up to 400%.
-The viewer renders at least 1,920 pixels wide for ordinary page aspect ratios,
-with a canvas memory limit and higher-density rendering during mobile pinch zoom.
-Rendering cannot recover detail absent in an original PDF. Statuario, the elevator
-catalogue and Laminate pages 3-16 need higher-resolution source exports for
-genuine HD detail throughout. Sanitary and Super White contain larger images.
+This ZIP contains the entire static website. There is no build or installation step.
+It includes all eight catalogues: Sanitary, Statuario, Super White, Laminate,
+Elevators, Fire, Water and WOOD.
 
-Latest additions: industrial kitchen design and planning; Tableware & accessories
-inside Industrial Kitchens; Water Tanks as the fifth sector. Product details and
-technical specifications show Coming soon where company data is still pending.
-The uploaded Laminate..pdf is byte-for-byte identical to the existing 29-page
-laminate catalogue and is included at its original quality.
+## Updating the GitHub Pages site
 
-## GitHub upload
+1. Extract the ZIP.
+2. In GitHub Desktop, open the existing komartrade repository and choose
+   Repository > Show in Explorer or Finder.
+3. Copy all extracted contents into that repository's root. Replace matching files.
+   Keep index.html at the root, alongside CNAME, .nojekyll, assets/, catalogues/
+   and vendor/. Do not copy the ZIP itself or add an enclosing folder.
+4. Commit to main, then Push origin. Check the repository's Actions tab for a
+   successful Pages deployment before refreshing https://komar-trading.com/.
 
-Extract this ZIP and upload ALL contents directly to the existing repository root,
-replacing matching files. Keep the directories and filenames exactly as included.
-index.html, app.js, kitchen-pages.js, catalogue-reader.js, style.css, i18n.js,
-viewport.js, .nojekyll and CNAME must be at the repository root alongside assets/,
-catalogues/ and vendor/.
+Keep GitHub Pages configured for main / (root). CNAME is set to
+komar-trading.com.
 
-GitHub Settings > Pages: deploy from main, /(root).
-Custom domain: komar-trading.com. The included CNAME uses this exact domain.
-Keep existing Porkbun email DNS records unchanged. Enable HTTPS in GitHub when
-its domain check and certificate are ready.
+## Catalogue quality
 
-## Original PDFs
-
-The large sanitary original is stored in 24 lossless .part files. Keep every
-.part file and sanitary-source.json inside catalogues/. The reader loads the
-needed parts and Download PDF reconstructs the original PDF without recompression.
-The other PDFs are original files. Do not remove any catalogue files.
+Downloads preserve the source PDF bytes. The Sanitary catalogue is stored
+in 24 lossless .part files. Keep all of them and sanitary-source.json in
+catalogues/ so the reader can load and reconstruct the original.
+Some photos in WOOD and the existing Statuario, Elevators and Laminate
+catalogues have lower resolution in the source files.
 
 ## Contact
 
 Info@komar-trading.com | +383 49 920 925
-The enquiry form prepares an email in the visitor's mail app. The visitor must
-press Send there; direct server-side email delivery is not configured.
-
-## Verification
-
-All 145 PDF pages were decoded and audited. All five catalogue readers loaded in
-a desktop browser with 2,400-pixel-wide canvases. Zoom was verified to rerender
-at 300%, and tests cover minimum-HD backing resolution and original byte ranges.
-
-The new pages render in all six languages. Desktop navigation, the tableware
-page, water tank page, and preselected quote form were checked in a browser.
-The mobile viewport guard was tested in code; actual iPhone visual review remains
-outstanding. Product photos or technical data not supplied are shown as Coming soon.
+The contact form opens the visitor's email app with a prepared message.
