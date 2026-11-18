@@ -1,7 +1,7 @@
 /* Continuous PDF reader. Original bytes are never rasterized for downloads. */
 window.CatalogueReader=class {
   constructor(id,token){this.id=id;this.token=token;this.stopped=false;this.jobs=new Map();this.pages=[];this.queue=[];this.active=0;this.parts=new Map();this.abort=new AbortController();this.download=document.querySelector('.viewer-download');this.onDownload=e=>this.downloadOriginal(e);this.download.addEventListener('click',this.onDownload);this.lastWidth=document.querySelector('#pdf-stage').clientWidth;this.resize=()=>{const width=document.querySelector('#pdf-stage')?.clientWidth;if(width===this.lastWidth)return;this.lastWidth=width;clearTimeout(this.resizeTimer);this.resizeTimer=setTimeout(()=>this.layout(),180)};this.visualResize=()=>{clearTimeout(this.visualTimer);this.visualTimer=setTimeout(()=>{const scale=window.visualViewport?.scale||1;if(Math.abs(scale-(this.visualScale||1))>.1){this.visualScale=scale;this.layout();}},180)};window.addEventListener('resize',this.resize);window.visualViewport?.addEventListener('resize',this.visualResize);}
-  get manifestUrl(){return ['sanitary','super-high-gloss','matt'].includes(this.id)?`catalogues/${this.id}-source.json`:null;}
+  get manifestUrl(){return ['sanitary','super-high-gloss','matt','terrazzo'].includes(this.id)?`catalogues/${this.id}-source.json`:null;}
   async source(){
     if(!this.manifestUrl)return {url:new URL(`catalogues/${this.id}.pdf`,location.href.split('#')[0]).href};
     const res=await fetch(this.manifestUrl,{signal:this.abort.signal});if(!res.ok)throw Error('PDF manifest');this.manifest=await res.json();const first=await this.part(0);const owner=this;

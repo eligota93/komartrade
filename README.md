@@ -1,8 +1,8 @@
 # Komar Trading - Complete GitHub Pages website
 
 This ZIP contains the entire static website. There is no build or installation step.
-It includes all eleven catalogues: Sanitary, Statuario, Super White, Laminate,
-Elevators, Fire, Water, WOOD, Super High Gloss, MATT and GRANITE. The Water Tanks page includes product photos, model specifications, and both Water and Fire.
+It includes all twelve catalogues: Sanitary, Statuario, Super White, Laminate,
+Elevators, Fire, Water, WOOD, Super High Gloss, MATT, GRANITE and TERRAZZO. The Water Tanks page includes product photos, model specifications, and both Water and Fire.
 
 ## Updating the GitHub Pages site
 
@@ -31,3 +31,5 @@ catalogues have lower resolution in the source files.
 
 Info@komar-trading.com | +383 49 920 925
 The contact form opens the visitor's email app with a prepared message.
+
+TERRAZZO also uses lossless .part files. Keep all 40 parts and terrazzo-source.json.
